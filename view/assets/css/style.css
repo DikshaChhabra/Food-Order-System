@@ -1,0 +1,246 @@
+.top{
+	background-color: #d2c5a6;
+	height: 53px;
+}
+.chef{
+	height: 50px;
+	float: left;
+	margin-left: 25px;
+}
+@font-face{
+	font-family: AlexBrush;
+	src: url("../fonts/AlexBrush-Regular.ttf"); 
+}
+.symbl{
+	height: 50px;
+	float: left;
+	margin-left: 25px;
+	color: white;
+}
+ #sub_nav{
+    position: relative;
+	margin-top: -200px;
+	margin-left: 90px;
+	font-size: 15px;
+	list-style: none;
+}
+#feedback{
+    margin-left: 400px;
+}
+.feedback_back{
+	background-image: url(../images/8419922788_cd36df0199_b.jpg);
+	background-size: cover;
+	height: 667px;
+}
+#chef_img{
+    margin-left: 500px;
+    margin-top: -1000px;
+    height: 450px;
+}
+.dash_sidebar{
+	height: 663px;
+}
+#feedback_form{
+	position: absolute;
+    margin-top: -270px;
+}
+#sbmtimg{
+        position: absolute;
+        margin-left: 1050px;
+        margin-top: 170px;
+}
+@font-face{
+	font-family: amerika;
+	src: url("../fonts/AMERIKA_.ttf");
+}
+.food,.food:hover{
+	color: black;
+	text-decoration: none;
+	font-family: amerika;
+}
+.roll{
+	position: relative;
+	margin-left: 78px;
+	}
+#menu_roll{
+	margin-top: -6px;
+    width: 190px;
+    display: none;
+    overflow: visible;
+    margin-left: -25px;
+    position: absolute;
+    z-index: 2;
+}
+.added_item{
+	position: absolute;
+	margin-top: 263px;
+	margin-left: 700px;
+	z-index: 2;
+	padding: 16;
+}
+.login_back{
+	background-image: url(../images/10818841_614203398685588_324600220_n.jpg);
+	background-size: cover;
+	height: 667px;
+	margin-top: -50px;
+}
+.main_menu{
+	float: right;
+	margin-top: 10px;
+}
+.login_form{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 479px;
+	width: 400px;
+	height: 200px;
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	padding: 10px;
+}
+.item{
+	display: inline;
+	letter-spacing: 0.5px;
+	margin-right: 30px;
+	font-size: 23px;
+	font-family: amerika;
+	cursor: pointer;
+	font-weight: bold;
+}
+.food_head{
+	font-family: amerika;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+	color: #695044;
+	padding: 4px;
+}
+.all_item_order{
+	margin-top: 83px;
+}
+.pattern{
+	background-image: url(../images/shutterstock_83564761.jpg);
+	background-size: cover;
+	margin-top: -30px;
+	background-position: fixed;
+	background-attachment: fixed;
+}
+.order_items{
+	margin-top: 20px;
+}
+.placed_order{
+	position: absolute;
+	margin-top: 355px;
+	margin-left: 551px;
+	padding: 10px;
+	z-index: 4;
+}
+.dish{
+	text-align: center;
+}
+.info_form{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 479px;
+	width: 400px;
+	height: 370px;
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	padding: 10px;
+}	
+.enter_info{
+	font-family: amerika;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.get_info{
+	margin-top: 20px;
+}
+.info_back{
+	background-image: url(../images/15387808986_362ca2d101_b.jpg);
+	background-size: cover;
+	height: 667px;
+}
+.order{
+	margin-top: -396px;
+	margin-left: 288px;
+	color: #695044;
+	font-family: AlexBrush;
+	font-weight: bolder;
+	font-size: 30px;
+}
+@font-face{
+	font-family: lilly;
+	src: url("../fonts/Lilly__.ttf");
+}
+.fullorder{
+	font-family: lilly;
+	margin-left: 175px;
+	color: #695044;
+	font-weight: bolder;
+	font-size: 14px;
+}
+.images{
+	height: 70px;
+}
+.names{
+	margin-top: 20px;
+}
+.contener{
+	margin-top: 20px;
+}
+.qty{
+	width: 47px;
+	
+}
+.menu{
+	width: 100px;
+	margin-left: 7px;
+}
+.cross{
+	height: 21px;
+	width: 21px;
+	margin-left: 40px;
+}
+.place_order,.place_order:hover,.place_order:visited,.place_order:focus{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 270px;
+	color: #d2c5a6;
+	background-color: #695044;
+	border-color: #695044;
+}
+.admin_top{
+	background-color: #d2c5a6;
+}
+.top-nav>li>a{
+	color: black;
+}
+.side-nav{
+	background-color: #d2c5a6;
+}
+.add_new{
+	cursor: pointer;
+}
+.new_order,.new_order:hover,.new_order:visited,.new_order:focus{
+	background-color: #d2c5a6;
+	color: #695044;
+}
+.navbar-inverse .navbar-nav > li > a {
+color: black;
+}
+.side-nav>li>a:hover, .side-nav>li>a:focus{
+	background-color: #695044 !important;
+}
+.navbar-inverse .navbar-nav > .active > a{
+	background-color:  #695044;
+}
+.top-nav>li>a:hover, .top-nav>li>a:focus, .top-nav>.open>a, .top-nav>.open>a:hover, .top-nav>.open>a:focus{
+	background-color: #695044;
+}
